@@ -4,9 +4,14 @@
 #include<iomanip>
 #include<string>
 #include<sstream>
+#include<cstdio>
 using namespace std;
-
+#define LOCAL
 int main(){
+#ifdef LOCAL
+    freopen("3-2-1.in", "r", stdin);
+    freopen("3-2-1.out", "w", stdout);
+#endif
     string src;
     cin >> src;
     int abc, de, x, y, z, cnt = 0;
